@@ -1,0 +1,12 @@
+Package: paqueteprueba
+Title: Paquete Para Aprender a Crear Paquetes
+Version: 0.0.0.9000
+Authors@R: 
+    person("Facundo", "Rubiolo", , "first.last@example.com", role = c("aut", "cre"),
+           comment = c(ORCID = "YOUR-ORCID-ID"))
+Description: Este paquete no está pensado para ser instalado, es un paquete de juguete para aprender a desarrollar paquertes en R. !NO LO INSTALES!
+License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
+    license
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.2
