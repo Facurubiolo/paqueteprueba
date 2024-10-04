@@ -17,3 +17,5 @@ VignetteBuilder: knitr
 Depends: 
     R (>= 2.10)
 LazyData: true
+URL: https://github.com/Facurubiolo/paqueteprueba
+BugReports: https://github.com/Facurubiolo/paqueteprueba/issues
