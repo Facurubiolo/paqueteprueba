@@ -1,6 +1,6 @@
 #' Centigrados a fahrenheit
 #'
-#' @param temp_c me retorna la convercion de centigrados a fahrenheit
+#' @param temp_c me retorna la converción de centigrados a fahrenheit
 #'
 #' @return
 #'
@@ -10,10 +10,14 @@
 #' (11 * 9/5) + 32
 #'
 #' @export
-convertir_centigrados_a_fahrenheit <- function (temp_c) {
-  #trabajar con datos de temperatura que tenemos que convertir
-  #de grados fahrentheid a centigrados
-  (temp_c * 9/5) + 32
-}
+F_to_C <- function(temp_fahrenheit) {
 
-convertir_centigrados_a_fahrenheit(11)
+  if (!is.numeric(temp_fahrenheit)) {
+
+    cli::cli_abort(c(
+      "El argumento temp_fahrenheit debe ser numérico." ,
+      "i" = "La variable ingresada es un {class(temp_fahrenheit)[1]}"
+    ))
+  }
+  return((temp_fahrenheit - 32) * 5/9)
+}

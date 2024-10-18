@@ -4,18 +4,18 @@
 \alias{suma}
 \title{Suma dos numeros}
 \usage{
-suma(x, y)
+suma(x = 2, y = 2)
 }
 \arguments{
-\item{x}{un vector numérico}
+\item{x}{un vector numérico positivo}
 
 \item{y}{un vector numérico}
 }
 \value{
-Un vector numerico con la suma de \code{x} e \code{y}.
+Un vector numérico con la suma de \code{x} e \code{y}.
 }
 \description{
-Esta funcion \code{suma()} toma dos numeros  y los suma.
+Esta función \code{suma()} toma dos números  y los suma.
 }
 \details{
 Estos son detalles extras de la funcion.

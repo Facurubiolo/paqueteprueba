@@ -5,17 +5,21 @@ Authors@R:
     person("Facundo", "Rubiolo", , "first.last@example.com", role = c("aut", "cre"),
            comment = c(ORCID = "YOUR-ORCID-ID"))
 Description: Este paquete no está pensado para ser instalado, es un paquete de juguete para aprender a desarrollar paquertes en R. !NO LO INSTALES!
-License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
-    license
+License: MIT + file LICENSE
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.3.2
 Suggests: 
     knitr,
-    rmarkdown
+    rmarkdown,
+    testthat (>= 3.0.0)
 VignetteBuilder: knitr
 Depends: 
     R (>= 2.10)
 LazyData: true
 URL: https://github.com/Facurubiolo/paqueteprueba
 BugReports: https://github.com/Facurubiolo/paqueteprueba/issues
+Imports: 
+    cli,
+    dplyr
+Config/testthat/edition: 3
